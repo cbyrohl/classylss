@@ -9,7 +9,7 @@ from classylss import get_data_files
 
 _DATA_FILES = get_data_files()
 
-from cclassy cimport *
+from classylss.cclassy cimport *
 
 DEF _Mpc_over_m_ = 3.085677581282e22  #/**< conversion factor from meters to megaparsecs */
                           #/* remark: CAMB uses 3.085678e22: good to know if you want to compare  with high accuracy */
